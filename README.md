@@ -1,4 +1,4 @@
-# wdev-site
+# codeFinaFestas
 
 ## Project setup
 ```
