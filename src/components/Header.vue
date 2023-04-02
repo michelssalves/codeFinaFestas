@@ -1,17 +1,13 @@
 <template>
     <header>
         <nav class="container">
-            <div class="nav-logo">
+        <div class="nav-logo">
                 <a href="#rodape"><img alt="" id="logo" src="@/assets/img/logo.png" />
                 </a>
-            </div>
-
-            <ul>
-                <a href="https://linktr.ee/buffetfinafestas">
-                    <img alt="" id="contato" src="@/assets/img/header.png" />
-                </a>
-            </ul>
-
+        </div>
+        <a href="https://linktr.ee/buffetfinafestas">
+            <img alt="" id="contato" src="@/assets/img/header.png" />
+        </a>
         </nav>
     </header>
 </template>
@@ -46,7 +42,7 @@ header {
 }
 
 nav {
-    display: flex;
+    display:flex;
     justify-content: space-between;
     height: 100vh;
     align-items: center;
@@ -55,8 +51,8 @@ nav {
 
 #logo {
 
-    width: 15vw;
-    height: 15vh;
+    width: 10vw;
+    height: 10vh;
 }
 
 #contato {
@@ -170,8 +166,13 @@ ul li a {
 
     #contato {
         width: 100%;
-        height: 10vh;
+        height: 5vh;
     }
+    header {
+
+        height: 100px;
+
+}
 
 }</style>
 

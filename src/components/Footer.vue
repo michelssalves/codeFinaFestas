@@ -127,6 +127,15 @@ footer {
     border-radius: 10px;
   
     }
+    footer {
+    width: 100%;
+    height: 200px;
+    background-color: var(--color-background-nav);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    
+}
  
 }
 </style>

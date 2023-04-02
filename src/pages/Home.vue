@@ -1,7 +1,7 @@
 <template>
   <div>
     <main> 
-       <img src="@/assets/img/page-header-bg.png" alt="">
+       <img id="imageMain" src="@/assets/img/page-header-bg.png" alt="">
     </main>
   </div>
 </template>
@@ -20,35 +20,33 @@ main{
     justify-content: center;
     align-items: center;
 }
-img{
+#imageMain{
 
-width: 100vw;
+width: 100%;
 height: 100vh;
 
 }
-@media(max-width:1400px){
+@media(min-width:321px ) and (max-width:768px) {
+
+  #imageMain{
+
+
+    width: 100%;
+    height: 80vh;
 
 }
-@media(max-width:1200px){
 
-} 
-@media(max-width:992px){
+}
 
-} 
-@media(max-width:768px){
+@media(min-width:0px ) and (max-width:320px) {
 
-} 
-@media(max-width:768px){
 
-} 
-@media(max-width:540px){
+  #imageMain{
 
-} 
-@media(max-width:350px){
-    img{
-      width: 100vw;
-      height: 100vh;
-    }
+  width: 100%;
+  height: 60vh;
+
+}
 }
 
 </style>
