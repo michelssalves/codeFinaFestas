@@ -129,7 +129,7 @@ footer {
     }
     footer {
     width: 100%;
-    height: 200px;
+    height: 100px;
     background-color: var(--color-background-nav);
     display: flex;
     justify-content: center;

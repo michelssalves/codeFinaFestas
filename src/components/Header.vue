@@ -57,7 +57,7 @@ nav {
 
 #contato {
     width: 30vw;
-    height: 10vh;
+    height: 8vh;
 }
 
 #menu-button {
@@ -153,7 +153,7 @@ ul li a {
 
     #contato {
         width: 100%;
-        height: 10vh;
+        height: 8vh;
     }
 }
 
@@ -166,7 +166,7 @@ ul li a {
 
     #contato {
         width: 100%;
-        height: 5vh;
+        height: 3vh;
     }
     header {
 

@@ -38,7 +38,7 @@ main{
 @media(min-width:0px ) and (max-width:320px) {
   main{
     width: 100%;
-    min-height: calc(100vh - 400px);
+    min-height: calc(100vh - 700px);
    
   }
 }
