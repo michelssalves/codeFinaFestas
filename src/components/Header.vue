@@ -5,16 +5,13 @@
                 <a href="#rodape"><img alt="" id="logo" src="@/assets/img/logo.png" />
                 </a>
             </div>
-            <img @click="openMenu" alt="Abrir Menu" id="menu-button"
-                src="https://raw.githubusercontent.com/william-costa/wdev-mock-site-resources/master/assets/images/menu.svg">
-            <div @click="closeMenu" id="menu-overlay" v-if="menuActive"></div>
-            <div :class="{ active: menuActive }" id="menu-items">
-                <img alt="" id="menu-logo"
-                    src="@/assets/img/logo.png"/>
-                <ul>
-                    <li @click="closeMenu"><a href="https://linktr.ee/buffetfinafestas" target="_blank">Contato</a></li>
-                </ul>
-            </div>
+
+            <ul>
+                <a href="https://linktr.ee/buffetfinafestas">
+                    <img alt="" id="contato" src="@/assets/img/header.png" />
+                </a>
+            </ul>
+
         </nav>
     </header>
 </template>
@@ -41,7 +38,7 @@ export default {
 header {
 
     background-color: var(--color-background-nav);
-    height: 60px;
+    height: 120px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -51,15 +48,20 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    height: 60px;
+    height: 100vh;
     align-items: center;
 
 }
 
 #logo {
 
-    width: 100px;
-    height: 50px;
+    width: 15vw;
+    height: 15vh;
+}
+
+#contato {
+    width: 30vw;
+    height: 10vh;
 }
 
 #menu-button {
@@ -142,5 +144,34 @@ ul li a {
         margin: 0;
         margin-left: 20px;
     }
+}
+
+@media(min-width:321px) and (max-width:768px) {
+
+
+    #logo {
+        display: none;
+        width: 20w;
+        height: 15vh;
+    }
+
+    #contato {
+        width: 100%;
+        height: 10vh;
+    }
+}
+
+@media(min-width:0px) and (max-width:320px) {
+    #logo {
+        display: none;
+        width: 5vw;
+        height: 5vh;
+    }
+
+    #contato {
+        width: 100%;
+        height: 10vh;
+    }
+
 }</style>
 

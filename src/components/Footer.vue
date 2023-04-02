@@ -48,7 +48,7 @@ export default {
 <style scoped>
 footer {
     width: 100%;
-    height: 100px;
+    height: 120px;
     background-color: var(--color-background-nav);
     display: flex;
     justify-content: center;
